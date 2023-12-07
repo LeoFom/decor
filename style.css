@@ -1,0 +1,214 @@
+body {
+    /* color: #fefefe; */
+    background-color: #4cb5f5;
+}
+* img {
+    max-width: 250px;
+    /* max-width: 100%; */
+}
+* h1,h2,h3,h4 {
+    font-size: 10px;
+}
+main {
+    position: relative;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-title {
+    /* margin-top: 100px; */
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sun {
+    z-index: 1;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: yellow;
+    box-shadow: 0 0 20px 0 yellow;
+    position: absolute;
+    top: -175px;
+    margin: 0 auto;
+}
+.block-sun-lines {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.sun-lines {
+    z-index: 3;
+    position: relative;
+    width: 1300px;
+    height: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* overflow: hidden; */
+    background: radial-gradient(closest-side, red 0%, transparent 50%, white 100%), conic-gradient( red 0deg, pink 10deg 25deg, red 35deg 55deg, pink 65deg 85deg, red 95deg 115deg, pink 125deg 145deg, red 155deg 175deg, pink 185deg 205 deg, red 215deg 235deg, pink 245deg 265deg, red 275deg 295deg, pink 305deg 325deg, red 335deg);
+}
+.art-title {
+    z-index: 2;
+    display: flex;
+
+}
+.art-title h1 {
+    font-size: 50px;
+    margin: 0;
+    font-weight: 300;
+    letter-spacing: 5px;
+} 
+.art-title span{
+    font-size: 50px;
+    font-weight: 300;
+}
+.art-one {
+    margin-top: 0px;
+    rotate: 20deg;
+    margin-right: 5px;
+}
+.art-two {
+    margin-top: 10px;
+    rotate: 0deg;
+    margin-right: 10px;
+}
+.art-three {
+    margin-top: 0px;
+    rotate: -20deg;
+    margin-right: 0px;
+}
+
+.decor-title {
+    z-index: 2;
+    display: flex;
+}
+.decor-title span{
+    font-size: 50px;
+    font-weight: 300;
+}
+
+
+.text {
+    font-size: 3rem;
+    fill: black
+}
+.letter-one {
+    margin-top: 0px;
+    rotate: 30deg;
+    margin-right: 6px;
+}
+.letter-two {
+    margin-top: 14px;
+    margin-right: 6px;
+    rotate: 10deg;
+}
+.letter-three {
+    margin-top: 20px;
+    margin-right: 3px;
+    rotate: 0deg;
+}
+.letter-four {
+    margin-top: 14px;
+    margin-right: 3px;
+    rotate: -10deg;
+}
+.letter-five {
+    margin-top: 0px;
+    margin-right: 3px;
+    rotate: -30deg;
+}
+
+
+.main-block {
+    width: 100vw;
+    height: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+   ;
+}
+
+.first-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fefefe;
+    position: relative;
+    width: 100vw;
+    height: 100%;
+    margin-bottom: 100px;
+}
+.first-background {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    /* background-image: url("./img/background1.png"); */
+
+
+}
+.main-text-block {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 20px;
+}
+.main-text-block h3{
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.main-img-block {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    /* align-items: center; */
+}
+.main-img-block img{
+}
+.spec{
+}
+.spec img{
+}
+
+
+.container {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.snowCircle {
+    position: absolute;
+    height: 0.23rem;
+    width: 0.23rem;
+    border-radius: 50%;
+    background-color: #fff;
+    animation: snowAnimation 20s infinite;
+    opacity: 0;
+    top: 0;
+}
+
+@keyframes snowAnimation {
+    from {
+        opacity: 0.4;
+        top: 0;
+        transform: rotateZ(0deg);
+    }
+    to {
+        opacity: 0.9;
+        top: 1962px;
+        transform: rotate(360deg);
+    }
+}
