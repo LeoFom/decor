@@ -1,256 +1,267 @@
 body {
-    display: flex;justify-content: center;
-    /* color: #fefefe; */
-    background-color: #4cb5f5;
+  display: flex;
+  justify-content: center;
+  /* color: #fefefe; */
+  background-color: #4cb5f5;
 }
 
-* h1,h2,h3,h4 {
-    font-size: 10px;
+* h1,
+h2,
+h3,
+h4 {
+  font-size: 10px;
 }
 main {
-    position: relative;
+  position: relative;
 }
 .wrapper {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .container {
-    max-width: 90vw;
-    display: flex;
-    flex-direction: column;
-    /* padding: 0 10px; */
-    margin: 0 10px;
+  max-width: 90vw;
+  display: flex;
+  flex-direction: column;
+  /* padding: 0 10px; */
+  margin: 0 10px;
 }
 .main-title {
-    /* margin-top: 100px; */
-    /* height: 300px; */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  /* margin-top: 100px; */
+  /* height: 300px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .sun {
-    z-index: 1;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    background-color: yellow;
-    box-shadow: 0 0 20px 0 yellow;
-    position: absolute;
-    top: -175px;
-    margin: 0 auto;
+  z-index: 1;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  background-color: yellow;
+  box-shadow: 0 0 20px 0 yellow;
+  position: absolute;
+  top: -175px;
+  margin: 0 auto;
 }
 .block-sun-lines {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 .sun-lines {
-    z-index: 3;
-    position: relative;
-    width: 1300px;
-    height: 1300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* overflow: hidden; */
-    background: radial-gradient(closest-side, red 0%, transparent 50%, white 100%), conic-gradient( red 0deg, pink 10deg 25deg, red 35deg 55deg, pink 65deg 85deg, red 95deg 115deg, pink 125deg 145deg, red 155deg 175deg, pink 185deg 205 deg, red 215deg 235deg, pink 245deg 265deg, red 275deg 295deg, pink 305deg 325deg, red 335deg);
+  z-index: 3;
+  position: relative;
+  width: 1300px;
+  height: 1300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* overflow: hidden; */
+  background: radial-gradient(closest-side, red 0%, transparent 50%, white 100%),
+    conic-gradient(
+      red 0deg,
+      pink 10deg 25deg,
+      red 35deg 55deg,
+      pink 65deg 85deg,
+      red 95deg 115deg,
+      pink 125deg 145deg,
+      red 155deg 175deg,
+      pink 185deg 205 deg,
+      red 215deg 235deg,
+      pink 245deg 265deg,
+      red 275deg 295deg,
+      pink 305deg 325deg,
+      red 335deg
+    );
 }
 .art-title {
-    z-index: 2;
-    display: flex;
-
+  z-index: 2;
+  display: flex;
 }
 .art-title h1 {
-    font-size: 50px;
-    margin: 0;
-    font-weight: 300;
-    letter-spacing: 5px;
-} 
-.art-title span{
-    font-size: 50px;
-    font-weight: 300;
+  font-size: 50px;
+  margin: 0;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+.art-title span {
+  font-size: 50px;
+  font-weight: 300;
 }
 .art-one {
-    margin-top: 0px;
-    rotate: 20deg;
-    margin-right: 5px;
+  margin-top: 0px;
+  rotate: 20deg;
+  margin-right: 5px;
 }
 .art-two {
-    margin-top: 10px;
-    rotate: 0deg;
-    margin-right: 10px;
+  margin-top: 10px;
+  rotate: 0deg;
+  margin-right: 10px;
 }
 .art-three {
-    margin-top: 0px;
-    rotate: -20deg;
-    margin-right: 0px;
+  margin-top: 0px;
+  rotate: -20deg;
+  margin-right: 0px;
 }
 
 .decor-title {
-    z-index: 2;
-    display: flex;
+  z-index: 2;
+  display: flex;
 }
-.decor-title span{
-    font-size: 50px;
-    font-weight: 300;
+.decor-title span {
+  font-size: 50px;
+  font-weight: 300;
 }
-
-
 
 .letter-one {
-    margin-top: 0px;
-    rotate: 30deg;
-    margin-right: 6px;
+  margin-top: 0px;
+  rotate: 30deg;
+  margin-right: 6px;
 }
 .letter-two {
-    margin-top: 14px;
-    margin-right: 6px;
-    rotate: 10deg;
+  margin-top: 14px;
+  margin-right: 6px;
+  rotate: 10deg;
 }
 .letter-three {
-    margin-top: 20px;
-    margin-right: 3px;
-    rotate: 0deg;
+  margin-top: 20px;
+  margin-right: 3px;
+  rotate: 0deg;
 }
 .letter-four {
-    margin-top: 14px;
-    margin-right: 3px;
-    rotate: -10deg;
+  margin-top: 14px;
+  margin-right: 3px;
+  rotate: -10deg;
 }
 .letter-five {
-    margin-top: 0px;
-    margin-right: 3px;
-    rotate: -30deg;
+  margin-top: 0px;
+  margin-right: 3px;
+  rotate: -30deg;
 }
 
-
 .main-block {
-    width: 100%;
-    height: 100%;
-    margin-top: 100px;
-    display: flex;
-    flex-direction: column;
-   ;
+  width: 100%;
+  height: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .first-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #fefefe;
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fefefe;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 100px;
 }
 
 .main-text-block {
-    width: 100%;
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: auto;
-    gap: 100px;
-    margin-bottom: 20px;
+  display: flex;
+  gap: 100px;
+  margin-bottom: 20px;
 }
-.main-text-block h3{
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    font-weight: normal;
+.flex-block {
+  gap: 0;
+  flex-direction: column;
+}
+.main-text-block h3 {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: normal;
 }
 .main-img-block {
-    display: grid; 
-    grid-template-columns: repeat(3, 1fr); 
-    grid-template-rows: 1fr;
-    justify-content: center;
-    gap: 70px;
-    z-index: 2;
-    /* align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  justify-content: center;
+  gap: 70px;
+  z-index: 2;
+  /* align-items: center; */
 }
 .main-img-block img {
-    max-width: 250px;
+  max-width: 250px;
 }
-@media (max-width: 899px){
-    .main-img-block {
-        grid-template-columns: repeat(3, 1fr); 
-        grid-template-rows: auto;
-    }
-    .main-img-block img {
-        max-width: 200px;
-    }
-    .main-text-block {
-    
-    }
+@media (max-width: 899px) {
+  .main-img-block {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+  }
+  .main-img-block img {
+    max-width: 200px;
+  }
+  .main-text-block {
+  }
 }
-@media (max-width: 750px){
-    .main-img-block img {
-        max-width: 180px;
-    }
-    .main-text-block {
-        gap: 40px;
-    }
+@media (max-width: 750px) {
+  .main-img-block img {
+    max-width: 180px;
+  }
+  .main-text-block {
+    gap: 40px;
+  }
 }
-@media (max-width: 690px){
-    .main-img-block {
-        grid-template-columns: repeat(1, 1fr); 
-        grid-template-rows: auto;
-    }
-    .main-img-block img {
-        max-width: 380px;
-    }
-    .main-text-block {
-        width: 100%;
-        display: grid; 
-        gap: 20px;
-        grid-template-columns: repeat(1, 1fr); 
-
-    }
-    .main-text-block h3{
-        width: 100%;
-        font-size: 23px;
-    
-    }
-    
+@media (max-width: 690px) {
+  .main-img-block {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+  }
+  .main-img-block img {
+    max-width: 380px;
+  }
+  .main-text-block {
+    width: 100%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-text-block h3 {
+    width: 100%;
+    font-size: 23px;
+  }
 }
 
-.main-img-block img{
+.main-img-block img {
+    border-radius: 10px;
 }
-.spec{
+.spec {
 }
-.spec img{
+.spec img {
 }
-
 
 .container {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
 }
 .snowCircle {
-    position: absolute;
-    height: 0.23rem;
-    width: 0.23rem;
-    border-radius: 50%;
-    background-color: #fff;
-    animation: snowAnimation 20s infinite;
-    opacity: 0;
-    top: 0;
+  position: absolute;
+  height: 0.23rem;
+  width: 0.23rem;
+  border-radius: 50%;
+  background-color: #fff;
+  animation: snowAnimation 20s infinite;
+  opacity: 0;
+  top: 0;
 }
 
 @keyframes snowAnimation {
-    from {
-        opacity: 0.4;
-        top: 0;
-        transform: rotateZ(0deg);
-    }
-    to {
-        opacity: 0.9;
-        top: 1962px;
-        transform: rotate(360deg);
-    }
+  from {
+    opacity: 0.4;
+    top: 0;
+    transform: rotateZ(0deg);
+  }
+  to {
+    opacity: 0.9;
+    top: 1962px;
+    transform: rotate(360deg);
+  }
 }
